@@ -1,9 +1,11 @@
-# Crimson Desert PC Trainer & BlackSpace Engine Overlay (v1.3.7)
+# Crimson Desert PC Trainer & BlackSpace Engine Overlay
 
-> Crimson Desert PC Trainer & BlackSpace Engine Overlay (v1.3.7) — External 144Hz+ DX11/DX12 viewport overlay, spatial radar, input smoothing.
+> Crimson Desert PC Trainer & BlackSpace Engine Overlay — Standalone Windows 10/11 (x64) Release, Setup & Configuration (v1.9.8)
 
-- [Official Portal & Documentation](https://GimetuLoxa79.github.io/crimson-desert-pc-trainer/)
-- [Direct Release Package (crimson-desert-pc-trainer-v1.3.7-win64.zip)](https://github.com/GimetuLoxa79/crimson-desert-pc-trainer/releases/download/v1.3.7/crimson-desert-pc-trainer-v1.3.7-win64.zip) (Archive Access Code: 2026)
-- [GitHub Repository](https://github.com/GimetuLoxa79/crimson-desert-pc-trainer)
-- [Installation Guide](https://github.com/GimetuLoxa79/crimson-desert-pc-trainer/blob/main/docs/INSTALL.md)
-- [FAQ & Troubleshooting](https://github.com/GimetuLoxa79/crimson-desert-pc-trainer/blob/main/docs/FAQ.md)
+## Official Links & Mirrors
+
+- [Official Documentation Portal](https://yyyyy62.github.io/crimson-desert-pc-trainer/)
+- [GitHub Repository](https://github.com/yyyyy62/crimson-desert-pc-trainer)
+- [Latest Release Package (crimson-desert-pc-trainer-v1.9.8-win64.zip)](https://github.com/GimetuLoxa79/crimson-desert-pc-trainer/releases/download/v1.3.7/crimson-desert-pc-trainer-v1.3.7-win64.zip)
+- [Go Package Reference](https://pkg.go.dev/github.com/yyyyy62/crimson-desert-pc-trainer)
+- [Jupyter Quickstart Notebook](https://nbviewer.org/github/yyyyy62/crimson-desert-pc-trainer/blob/main/notebooks/quickstart.ipynb)
