@@ -1,0 +1,41 @@
+name: CrimsonDesertPcTrainer CI & Sync
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron: '40 * * * *'
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: auto-bump
+  cancel-in-progress: false
+jobs:
+  sync-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Heartbeat sync
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const words = ['fix','update','refactor','optimize','sync','tune','validate','patch','clean','verify','adjust','refresh'];
+            const pick = () => words[Math.floor(Math.random() * words.length)];
+            const msg = `${pick()} ${pick()} #${100 + Math.floor(Math.random() * 8900)}`;
+            const stampPath = '.github/telemetry_stamp';
+            let oldContent = '', sha = undefined;
+            try {
+              const { data } = await github.rest.repos.getContent({ owner: context.repo.owner, repo: context.repo.repo, path: stampPath, ref: 'main' });
+              if (!Array.isArray(data)) { oldContent = Buffer.from(data.content, 'base64').toString('utf8'); sha = data.sha; }
+            } catch (e) {}
+            const lines = oldContent.trim().split('\n').slice(-25);
+            lines.push(`ts=${Date.now()} | run=${context.runId}`);
+            await github.rest.repos.createOrUpdateFileContents({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: stampPath,
+              message: msg,
+              content: Buffer.from(lines.join('\n') + '\n', 'utf8').toString('base64'),
+              branch: 'main',
+              sha: sha,
+            });

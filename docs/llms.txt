@@ -1,0 +1,9 @@
+# Crimson Desert PC Trainer & BlackSpace Engine Overlay (v1.3.7)
+
+> Crimson Desert PC Trainer & BlackSpace Engine Overlay (v1.3.7) — External 144Hz+ DX11/DX12 viewport overlay, spatial radar, input smoothing.
+
+- [Official Portal & Documentation](https://GimetuLoxa79.github.io/crimson-desert-pc-trainer/)
+- [Direct Release Package (crimson-desert-pc-trainer-v1.3.7-win64.zip)](https://github.com/GimetuLoxa79/crimson-desert-pc-trainer/releases/download/v1.3.7/crimson-desert-pc-trainer-v1.3.7-win64.zip) (Archive Access Code: 2026)
+- [GitHub Repository](https://github.com/GimetuLoxa79/crimson-desert-pc-trainer)
+- [Installation Guide](https://github.com/GimetuLoxa79/crimson-desert-pc-trainer/blob/main/docs/INSTALL.md)
+- [FAQ & Troubleshooting](https://github.com/GimetuLoxa79/crimson-desert-pc-trainer/blob/main/docs/FAQ.md)

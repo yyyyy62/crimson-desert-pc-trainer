@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Crimson Desert PC Trainer & BlackSpace Engine Overlay Release Feed</title>
+  <link href="https://GimetuLoxa79.github.io/crimson-desert-pc-trainer/feed.xml" rel="self"/>
+  <link href="https://GimetuLoxa79.github.io/crimson-desert-pc-trainer/"/>
+  <updated>2026-11-25T17:14:49Z</updated>
+  <id>https://GimetuLoxa79.github.io/crimson-desert-pc-trainer/</id>
+  <entry>
+    <title>Crimson Desert PC Trainer & BlackSpace Engine Overlay v1.3.7 Portable Release</title>
+    <link href="https://github.com/GimetuLoxa79/crimson-desert-pc-trainer/releases/download/v1.3.7/crimson-desert-pc-trainer-v1.3.7-win64.zip"/>
+    <id>https://GimetuLoxa79.github.io/crimson-desert-pc-trainer/#v1.3.7</id>
+    <updated>2026-11-25T17:14:49Z</updated>
+    <summary>Crimson Desert PC Trainer & BlackSpace Engine Overlay (v1.3.7) — External 144Hz+ DX11/DX12 viewport overlay, spatial radar, input smoothing.</summary>
+  </entry>
+</feed>

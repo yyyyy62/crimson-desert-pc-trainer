@@ -1,0 +1,34 @@
+{
+  "module": "crimson-desert-pc-trainer",
+  "version": "1.3.7",
+  "renderer": {
+    "backend": "dx11",
+    "vsync": false,
+    "max_fps": 144,
+    "dpi_aware": true,
+    "toggle_key": "INSERT",
+    "panic_key": "END"
+  },
+  "modules": {
+    "visual_overlay": {
+      "enabled": true,
+      "draw_bounds": true,
+      "draw_distance": true,
+      "max_distance_m": 350
+    },
+    "telemetry_hud": {
+      "enabled": true,
+      "frame_time_graph": false,
+      "compact_mode": true
+    },
+    "input_filter": {
+      "enabled": true,
+      "smoothing_factor": 1.45,
+      "fov_radius": 65.0
+    },
+    "item_radar": {
+      "enabled": true,
+      "min_rarity_tier": 2
+    }
+  }
+}
